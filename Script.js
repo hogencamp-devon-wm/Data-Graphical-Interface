@@ -4,17 +4,17 @@ google.setOnLoadCallback(drawBasic);
 function drawBasic() {
 
     var data = google.visualization.arrayToDataTable([
-        ['Country', 'Country Internet Speed',],
+        ['Country', 'Count',],
         ['Lithuania', 33.1],
         ['South Korea', 28.8],
         ['Sweden', 25.5],
         ['Latvia', 25.4],
         ['Romania', 24.3],
-	   ['Netherlands', 23.7],
-	   ['Macua', 23.3],
-	   ['Bulgaria', 20.8],
-	   ['Switzerland', 19.8],
-	   ['Andorra', 19.8]
+	    ['Netherlands', 23.7],
+	    ['Macua', 23.3],
+	    ['Bulgaria', 20.8],
+	    ['Switzerland', 19.8],
+	    ['Andorra', 19.8]
     ]);
 
     var options = {
