@@ -13,14 +13,14 @@ function drawBasic() {
     ]);
 
     var options = {
-        title: 'Population of Largest U.S. Cities',
+        title: 'Comparison of Average Internet Speed',
         chartArea: {width: '50%'},
         hAxis: {
-            title: 'Total Population',
+            title: 'Speed Mb/s',
             minValue: 0
         },
         vAxis: {
-            title: 'City'
+            title: 'Country'
         }
     };
 
