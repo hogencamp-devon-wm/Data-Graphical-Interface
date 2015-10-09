@@ -4,7 +4,7 @@ google.setOnLoadCallback(drawBasic);
 function drawBasic() {
 
     var data = google.visualization.arrayToDataTable([
-        ['Country', '2010 Population',],
+        ['Country', 'Country Internet Speed',],
         ['Lithuania', 33.1],
         ['South Korea', 28.8],
         ['Sweden', 25.5],
