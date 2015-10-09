@@ -4,12 +4,17 @@ google.setOnLoadCallback(drawBasic);
 function drawBasic() {
 
     var data = google.visualization.arrayToDataTable([
-        ['City', '2010 Population',],
-        ['New York City, NY', 8175000],
-        ['Los Angeles, CA', 3792000],
-        ['Chicago, IL', 2695000],
-        ['Houston, TX', 2099000],
-        ['Philadelphia, PA', 1526000]
+        ['Country', '2010 Population',],
+        ['Lithuania', 33.1],
+        ['South Korea', 28.8],
+        ['Sweden', 25.5],
+        ['Latvia', 25.4],
+        ['Romania', 24.3],
+	   ['Netherlands', 23.7],
+	   ['Macua', 23.3],
+	   ['Bulgaria', 20.8],
+	   ['Switzerland', 19.8],
+	   ['Andorra', 19.8]
     ]);
 
     var options = {
