@@ -1,4 +1,31 @@
 body{
-    background-color: #837474;
-    font-family: sans-serif
+    font-family: Helvetica;
+    color: #ecf0f1;
+    text-align: center;
+}
+
+#Header{
+	background-color: #2ecc71;
+	padding: 20px;
+}
+
+#Internet{
+	background-color: #e74c3c;
+	padding: 20px;
+}
+
+#Apple{
+	background-color: #3498db;
+	padding: 20px;
+}
+#InternetChart {
+	padding: 20px;
+}
+
+#AppleChart {
+	padding: 20px;
+}
+
+p {
+	text-size: 24pt;
 }
